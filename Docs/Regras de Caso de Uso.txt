@@ -1,0 +1,79 @@
+Caso de Uso 1: Visualizar Produtos
+Ator: Usuário (Visitante)
+
+Objetivo: Visualizar a lista de produtos disponíveis.
+
+Fluxo Principal:
+
+O usuário acessa a página inicial do site.
+O sistema exibe a lista de produtos com imagens, títulos e preços.
+O usuário pode clicar em um produto para visualizar mais detalhes.
+Fluxo Alternativo:
+
+Se não houver produtos disponíveis, o sistema exibe uma mensagem informando que não há produtos no momento.
+Caso de Uso 2: Adicionar Produto ao Carrinho
+Ator: Usuário (Cliente)
+
+Objetivo: Adicionar um produto ao carrinho de compras.
+
+Fluxo Principal:
+
+O usuário visualiza a lista de produtos.
+O usuário clica no botão "Adicionar ao carrinho" de um produto.
+O sistema adiciona o produto ao carrinho e atualiza a quantidade no ícone do carrinho.
+Fluxo Alternativo:
+
+Se o usuário tentar adicionar um produto indisponível, o sistema exibe uma mensagem de erro.
+Caso de Uso 3: Visualizar Carrinho
+Ator: Usuário (Cliente)
+
+Objetivo: Visualizar os itens no carrinho de compras.
+
+Fluxo Principal:
+
+O usuário clica no ícone do carrinho.
+O sistema exibe uma tabela com os produtos adicionados, incluindo nome, preço e quantidade.
+O sistema calcula e exibe o total do carrinho.
+Fluxo Alternativo:
+
+Se o carrinho estiver vazio, o sistema exibe uma mensagem informando que não há itens no carrinho.
+Caso de Uso 4: Finalizar Compra
+Ator: Usuário (Cliente)
+
+Objetivo: Finalizar a compra dos produtos no carrinho.
+
+Fluxo Principal:
+
+O usuário visualiza o carrinho e clica no botão "Finalizar".
+O sistema redireciona o usuário para o formulário de dados do cliente.
+O usuário preenche o formulário com nome, contato e endereço.
+O usuário clica no botão "Finalizar compra".
+O sistema processa a compra e exibe uma confirmação.
+Fluxo Alternativo:
+
+Se houver campos obrigatórios não preenchidos, o sistema exibe uma mensagem de erro e solicita o preenchimento.
+Caso de Uso 5: Contatar Suporte
+Ator: Usuário (Visitante ou Cliente)
+
+Objetivo: Entrar em contato com o suporte.
+
+Fluxo Principal:
+
+O usuário clica no link "Contato" na navegação.
+O sistema exibe a seção de contatos com informações de telefone, Instagram e Facebook.
+O usuário escolhe um método de contato e envia uma mensagem ou faz uma ligação.
+Fluxo Alternativo:
+
+Se o usuário não conseguir acessar as informações de contato, o sistema exibe uma mensagem de erro e sugere alternativas.
+Caso de Uso 6: Navegação no Site
+Ator: Usuário (Visitante)
+
+Objetivo: Navegar pelas diferentes seções do site.
+
+Fluxo Principal:
+
+O usuário utiliza o menu de navegação para acessar diferentes seções do site (Home, Contato, etc.).
+O sistema carrega a seção correspondente e exibe o conteúdo.
+Fluxo Alternativo:
+
+Se o usuário tentar acessar uma seção inexistente, o sistema exibe uma mensagem de erro 404.
