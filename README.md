@@ -1,6 +1,6 @@
 # CyberLanches
 Um projeto de site feito para avaliação de trabalho de Análise e Desenvolvimento de Sistemas
-Passo de Instalação:
+/nPasso de Instalação:
  1- Baixar o projeto
  2- Extrair a pasta do projeto para htdoc na pasta do XAMPP
  3- Executar o XAMPP e startar 'Apache' e 'MySQL'
